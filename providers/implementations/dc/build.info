@@ -1,0 +1,3 @@
+# Adding DC provider source files directly into libdefault.a
+SOURCE[../../libdefault.a]=dc.c dc_provider.c
+INCLUDE[../../libdefault.a]=include

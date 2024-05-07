@@ -175,3 +175,10 @@ ENDIF
 # include all the object files that are needed.
 $NULLGOAL=../libcrypto
 SOURCE[$NULLGOAL]=nullprov.c prov_running.c
+
+# Assuming your 'providers' directory is the base for the build.info paths
+# Add the source files to libdefault.a
+SOURCE[libdefault.a]=implementations/dc/dc.c implementations/dc/dc_provider.c
+
+
+
